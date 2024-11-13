@@ -1,0 +1,51 @@
+.book-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.book-item .book-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-item .book-details span {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.book-item .edit-button {
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.book-item .delete-button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book-item .edit-button:hover {
+    background-color: #31b0d5;
+}
+
+.book-item .delete-button:hover {
+    background-color: #c9302c;
+}
